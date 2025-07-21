@@ -1,0 +1,27 @@
+# Arquivos do sistema
+.DS_Store
+.claude/
+
+# Livros e conteúdo protegido por direitos autorais
+*.pdf
+*.epub
+*.mobi
+*.azw
+*.azw3
+
+# Resumos pessoais (podem conter conteúdo protegido)
+# resumos/
+
+# Configurações locais sensíveis
+**/settings.local.json
+**/*.local.*
+
+# Logs e temporários
+*.log
+*.tmp
+__pycache__/
+*.pyc
+
+# Dados pessoais do Kindle
+kindle_library/
+My Kindle Content/

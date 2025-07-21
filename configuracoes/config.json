@@ -1,0 +1,174 @@
+{
+  "agent_config": {
+    "name": "Agente de Resumo e Estudo de Livros",
+    "version": "1.0.0",
+    "description": "Agente especializado em análise, resumo e criação de materiais de estudo para livros"
+  },
+  
+  "model_config": {
+    "primary_model": "claude-3-5-sonnet-20241022",
+    "fallback_model": "claude-3-haiku-20240307",
+    "temperature": 0.3,
+    "max_tokens": 8192,
+    "context_window": 180000,
+    "streaming": true
+  },
+  
+  "processing_config": {
+    "chunk_size": 2000,
+    "chunk_overlap": 200,
+    "max_chunks_per_batch": 10,
+    "parallel_processing": true,
+    "cache_summaries": true,
+    "cache_ttl_hours": 168
+  },
+  
+  "output_formats": {
+    "available": ["xml", "json", "markdown", "pdf"],
+    "default": "xml",
+    "include_metadata": true,
+    "include_timestamps": true
+  },
+  
+  "summary_types": {
+    "executive": {
+      "enabled": true,
+      "max_length": 1000,
+      "include_key_insights": true
+    },
+    "chapter": {
+      "enabled": true,
+      "max_length_per_chapter": 150,
+      "include_page_references": true
+    },
+    "thematic": {
+      "enabled": true,
+      "min_theme_occurrences": 3,
+      "cross_reference_themes": true
+    },
+    "progressive": {
+      "enabled": true,
+      "levels": ["high-level", "detailed", "comprehensive"]
+    }
+  },
+  
+  "analysis_features": {
+    "extract_quotes": {
+      "enabled": true,
+      "max_quotes": 20,
+      "min_quote_length": 30,
+      "include_context": true
+    },
+    "identify_concepts": {
+      "enabled": true,
+      "min_concept_frequency": 2,
+      "create_concept_map": true
+    },
+    "generate_questions": {
+      "enabled": true,
+      "question_types": ["comprehension", "application", "analysis", "synthesis"],
+      "questions_per_chapter": 5
+    },
+    "create_flashcards": {
+      "enabled": true,
+      "flashcards_per_chapter": 10,
+      "include_examples": true
+    }
+  },
+  
+  "book_categories": {
+    "technical": {
+      "focus_areas": ["implementations", "code_examples", "algorithms", "architectures"],
+      "include_prerequisites": true,
+      "extract_formulas": true
+    },
+    "business": {
+      "focus_areas": ["frameworks", "case_studies", "metrics", "strategies"],
+      "extract_action_items": true,
+      "identify_kpis": true
+    },
+    "academic": {
+      "focus_areas": ["theories", "methodologies", "research_findings", "citations"],
+      "maintain_academic_rigor": true,
+      "preserve_citations": true
+    },
+    "self_help": {
+      "focus_areas": ["exercises", "techniques", "principles", "action_plans"],
+      "create_implementation_guide": true,
+      "track_progress_metrics": true
+    },
+    "fiction": {
+      "focus_areas": ["plot", "characters", "themes", "symbolism"],
+      "analyze_narrative_structure": true,
+      "identify_literary_devices": true
+    }
+  },
+  
+  "quality_checks": {
+    "completeness_threshold": 0.85,
+    "coherence_check": true,
+    "fact_verification": true,
+    "bias_detection": true,
+    "readability_score_target": 65
+  },
+  
+  "user_preferences": {
+    "default_summary_length": "medium",
+    "preferred_language": "pt-BR",
+    "technical_level": "intermediate",
+    "include_examples": true,
+    "include_visuals_description": true
+  },
+  
+  "api_limits": {
+    "rate_limit_per_minute": 50,
+    "max_retries": 3,
+    "retry_delay_seconds": 2,
+    "timeout_seconds": 300
+  },
+  
+  "storage": {
+    "save_raw_chunks": false,
+    "save_intermediate_summaries": true,
+    "output_directory": "./output",
+    "organize_by_book": true,
+    "compression": "gzip"
+  },
+  
+  "integrations": {
+    "notion": {
+      "enabled": false,
+      "api_key": "",
+      "database_id": ""
+    },
+    "obsidian": {
+      "enabled": false,
+      "vault_path": "",
+      "template_path": ""
+    },
+    "anki": {
+      "enabled": false,
+      "deck_name": "",
+      "export_format": "apkg"
+    }
+  },
+  
+  "advanced_features": {
+    "comparative_analysis": {
+      "enabled": false,
+      "max_books_to_compare": 3
+    },
+    "reading_time_estimation": {
+      "enabled": true,
+      "words_per_minute": 250
+    },
+    "difficulty_assessment": {
+      "enabled": true,
+      "factors": ["vocabulary", "concept_density", "prior_knowledge_required"]
+    },
+    "personalized_learning_path": {
+      "enabled": false,
+      "adapt_to_user_progress": true
+    }
+  }
+}
