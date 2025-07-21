@@ -1,0 +1,276 @@
+{
+  "title": "Flashcards - Criando um Segundo Cérebro",
+  "description": "30 flashcards principais para dominar os conceitos do livro",
+  "cards": [
+    {
+      "id": 1,
+      "difficulty": "facil",
+      "category": "conceitos-fundamentais",
+      "front": "O que é um 'Segundo Cérebro' segundo Tiago Forte?",
+      "back": "Um sistema digital confiável e organizado para capturar, processar e utilizar conhecimento, funcionando como uma extensão de nossa mente que libera o cérebro biológico para pensar criativamente.",
+      "hint": "Pense em externalização cognitiva",
+      "page_ref": "Introdução"
+    },
+    {
+      "id": 2,
+      "difficulty": "facil",
+      "category": "metodo-code",
+      "front": "Quais são os 4 passos do método CODE?",
+      "back": "C - Capturar (salvar ideias ressonantes)\nO - Organizar (estruturar para ação)\nD - Destilar (extrair a essência)\nE - Expressar (compartilhar e criar)",
+      "hint": "Capture, Organize, Destile, Expresse",
+      "page_ref": "Parte II"
+    },
+    {
+      "id": 3,
+      "difficulty": "medio",
+      "category": "captura",
+      "front": "O que é o 'teste de repercussão' para captura?",
+      "back": "Capturar apenas informações que provocam uma reação emocional ou intelectual genuína - curiosidade, admiração, utilidade ou surpresa. Se não 'repercute', não vale a pena salvar.",
+      "hint": "Qualidade sobre quantidade",
+      "page_ref": "Capítulo 3"
+    },
+    {
+      "id": 4,
+      "difficulty": "facil",
+      "category": "organizacao",
+      "front": "O que significa PARA no sistema organizacional?",
+      "back": "P - Projetos (tarefas com prazo)\nA - Áreas (responsabilidades contínuas)\nR - Recursos (interesses e referências)\nA - Arquivos (itens inativos)",
+      "hint": "Projects, Areas, Resources, Archives",
+      "page_ref": "Capítulo 4"
+    },
+    {
+      "id": 5,
+      "difficulty": "medio",
+      "category": "organizacao",
+      "front": "Qual a diferença fundamental entre Projetos e Áreas?",
+      "back": "Projetos têm resultado específico e prazo definido (lançar produto, escrever relatório). Áreas são responsabilidades contínuas sem data final (finanças, saúde, relacionamentos).",
+      "hint": "Prazo definido vs. responsabilidade contínua",
+      "page_ref": "Capítulo 4"
+    },
+    {
+      "id": 6,
+      "difficulty": "dificil",
+      "category": "destilacao",
+      "front": "Quais são as 4 camadas do Progressive Summarization?",
+      "back": "1ª: Salvar conteúdo original\n2ª: Destacar (bold) passagens importantes\n3ª: Destacar (highlight) o melhor dos destaques\n4ª: Criar resumo executivo no topo",
+      "hint": "Camadas progressivas de refinamento",
+      "page_ref": "Capítulo 5"
+    },
+    {
+      "id": 7,
+      "difficulty": "facil",
+      "category": "conceitos-fundamentais",
+      "front": "Complete: 'Seu cérebro é para ___, não para ___.'",
+      "back": "Seu cérebro é para TER IDEIAS, não para ARMAZENÁ-LAS.",
+      "hint": "Criatividade vs. memória",
+      "page_ref": "Capítulo 1"
+    },
+    {
+      "id": 8,
+      "difficulty": "medio",
+      "category": "expressao",
+      "front": "O que é o 'Arquipélago de Ideias'?",
+      "back": "Começar projetos criativos reunindo 'ilhas' de conteúdo já existentes no Segundo Cérebro (notas, ideias, referências) e conectá-las gradualmente em um 'continente' coerente.",
+      "hint": "Ilhas de conteúdo se tornam continentes",
+      "page_ref": "Capítulo 7"
+    },
+    {
+      "id": 9,
+      "difficulty": "medio",
+      "category": "produtividade",
+      "front": "Quanto tempo profissionais gastam procurando informações e qual a taxa de sucesso?",
+      "back": "Profissionais gastam 26% do tempo procurando informações, encontrando o que precisam apenas 56% das vezes. Isso equivale a mais de 2 horas por dia.",
+      "hint": "Um quarto do tempo, metade do sucesso",
+      "page_ref": "Capítulo 1"
+    },
+    {
+      "id": 10,
+      "difficulty": "dificil",
+      "category": "implementacao",
+      "front": "O que são 'Slow Burns' vs. 'Heavy Lifts' em projetos?",
+      "back": "Slow Burns: coletar material gradualmente, deixar ideias 'marinar' (projetos criativos complexos). Heavy Lifts: execução focada e intensiva usando material já coletado (projetos com prazo).",
+      "hint": "Queima lenta vs. esforço concentrado",
+      "page_ref": "Capítulo 8"
+    },
+    {
+      "id": 11,
+      "difficulty": "facil",
+      "category": "captura",
+      "front": "Quais são os 4 critérios para capturar informação?",
+      "back": "1. Inspirador (provoca entusiasmo)\n2. Útil (aplicação prática clara)\n3. Pessoal (ressoa com valores/objetivos)\n4. Surpreendente (desafia pensamento atual)",
+      "hint": "IUPS - Inspirador, Útil, Pessoal, Surpreendente",
+      "page_ref": "Capítulo 3"
+    },
+    {
+      "id": 12,
+      "difficulty": "medio",
+      "category": "manutencao",
+      "front": "Quais são as 3 revisões periódicas essenciais e sua duração?",
+      "back": "1. Diária (5 min): capturar notas, clarificar ações\n2. Semanal (30-60 min): reorganizar, arquivar, planejar\n3. Mensal (2-3 horas): avaliar progresso, atualizar projetos",
+      "hint": "Diária-rápida, Semanal-média, Mensal-profunda",
+      "page_ref": "Capítulo 9"
+    },
+    {
+      "id": 13,
+      "difficulty": "medio",
+      "category": "conceitos-fundamentais",
+      "front": "Qual a principal diferença entre conhecimento tradicional e Segundo Cérebro?",
+      "back": "Conhecimento tradicional: consumir e esquecer ('aprender para a prova'). Segundo Cérebro: conhecimento como ativo que cresce e se valoriza com o tempo.",
+      "hint": "Consumo vs. investimento",
+      "page_ref": "Introdução"
+    },
+    {
+      "id": 14,
+      "difficulty": "dificil",
+      "category": "implementacao",
+      "front": "O que são 'Pacotes de Trabalho' e suas características?",
+      "back": "Divisões de projetos grandes em unidades que podem ser concluídas em 2-3 horas. Características: resultado definido, recursos incluídos, valor independente, conclusão autônoma.",
+      "hint": "Pequeno, completo, independente",
+      "page_ref": "Capítulo 8"
+    },
+    {
+      "id": 15,
+      "difficulty": "facil",
+      "category": "metodo-code",
+      "front": "Por que 'Expressar' é o passo final do CODE?",
+      "back": "Porque conhecimento não compartilhado é conhecimento desperdiçado. O valor real surge quando transformamos informação em criação e ação no mundo.",
+      "hint": "Ação sobre acumulação",
+      "page_ref": "Capítulo 6"
+    },
+    {
+      "id": 16,
+      "difficulty": "medio",
+      "category": "destilacao",
+      "front": "Qual o benefício principal do Progressive Summarization?",
+      "back": "Permite diferentes níveis de profundidade de leitura - desde revisão em segundos (resumo executivo) até análise profunda (texto original), criando 'mapas de calor' do conteúdo importante.",
+      "hint": "Flexibilidade de profundidade",
+      "page_ref": "Capítulo 5"
+    },
+    {
+      "id": 17,
+      "difficulty": "medio",
+      "category": "organizacao",
+      "front": "Qual a pergunta-chave ao organizar informação no PARA?",
+      "back": "'Em que projeto isso pode me ajudar AGORA?' - Organize para ação imediata, não para armazenamento perfeito ou categorização abstrata.",
+      "hint": "Foco no presente e na ação",
+      "page_ref": "Capítulo 4"
+    },
+    {
+      "id": 18,
+      "difficulty": "dificil",
+      "category": "criatividade",
+      "front": "Quais são as duas fases do processo criativo segundo Forte?",
+      "back": "1. Divergência: explorar amplamente, coletar sem julgamento, seguir tangentes\n2. Convergência: focar no essencial, organizar logicamente, criar produto final",
+      "hint": "Abrir e fechar, explorar e refinar",
+      "page_ref": "Capítulo 7"
+    },
+    {
+      "id": 19,
+      "difficulty": "facil",
+      "category": "ferramentas",
+      "front": "Quais características uma ferramenta de captura deve ter?",
+      "back": "1. Captura rápida (menos de 30 segundos)\n2. Sincronização entre dispositivos\n3. Busca robusta\n4. Capacidade multimídia",
+      "hint": "Rápida, sincronizada, pesquisável, versátil",
+      "page_ref": "Capítulo 3"
+    },
+    {
+      "id": 20,
+      "difficulty": "medio",
+      "category": "casos-praticos",
+      "front": "Como o autor descobriu seu diagnóstico médico usando o Segundo Cérebro?",
+      "back": "Digitalizou e organizou 5 anos de registros médicos, identificando padrões que médicos individuais não perceberam por verem apenas partes isoladas do problema.",
+      "hint": "Visão holística vs. fragmentada",
+      "page_ref": "Capítulo 2"
+    },
+    {
+      "id": 21,
+      "difficulty": "dificil",
+      "category": "troubleshooting",
+      "front": "Qual a 'Regra 10/1' para evitar apenas colecionar?",
+      "back": "Para cada 10 itens capturados, crie 1 coisa. Mantém o foco na expressão e criação, não apenas na acumulação de informação.",
+      "hint": "Proporção captura/criação",
+      "page_ref": "FAQ"
+    },
+    {
+      "id": 22,
+      "difficulty": "medio",
+      "category": "organizacao",
+      "front": "Como decidir entre colocar algo em Projetos ou Áreas?",
+      "back": "Se tem prazo ou resultado específico → Projetos. Se é responsabilidade contínua sem fim definido → Áreas. Na dúvida, comece em Projetos.",
+      "hint": "Prazo definido é a chave",
+      "page_ref": "Capítulo 4"
+    },
+    {
+      "id": 23,
+      "difficulty": "facil",
+      "category": "conceitos-fundamentais",
+      "front": "Quantos jornais de informação consumimos diariamente?",
+      "back": "174 jornais completos - uma quantidade que nossos ancestrais não encontrariam em toda uma vida.",
+      "hint": "Centenas de jornais",
+      "page_ref": "Introdução"
+    },
+    {
+      "id": 24,
+      "difficulty": "medio",
+      "category": "implementacao",
+      "front": "Quanto tempo leva para ver os primeiros benefícios do Segundo Cérebro?",
+      "back": "Primeiros benefícios em 2-3 semanas (encontrar informações mais rápido). Benefícios transformadores em 3-6 meses (criar projetos com material existente).",
+      "hint": "Semanas para básico, meses para transformação",
+      "page_ref": "FAQ"
+    },
+    {
+      "id": 25,
+      "difficulty": "dificil",
+      "category": "destilacao",
+      "front": "Como o Progressive Summarization resolve o 'Problema do Contexto'?",
+      "back": "Preserva o original intacto e adiciona camadas de destilação conforme necessário, evitando perder nuances por destacar muito cedo ou fora de contexto.",
+      "hint": "Preservação com refinamento gradual",
+      "page_ref": "Capítulo 5"
+    },
+    {
+      "id": 26,
+      "difficulty": "medio",
+      "category": "manutencao",
+      "front": "O que é revisão 'Just-in-Time' de notas?",
+      "back": "Revisar notas apenas quando iniciar um projeto relacionado, em vez de revisões regulares de todo o conteúdo. Mais eficiente e contextual.",
+      "hint": "Revisar quando necessário",
+      "page_ref": "Troubleshooting"
+    },
+    {
+      "id": 27,
+      "difficulty": "facil",
+      "category": "expressao",
+      "front": "Por que compartilhar 'trabalho em progresso'?",
+      "back": "O feedback acelera o aprendizado, cria oportunidades inesperadas e combate o perfeccionismo que impede a criação.",
+      "hint": "Feedback e oportunidades",
+      "page_ref": "Capítulo 6"
+    },
+    {
+      "id": 28,
+      "difficulty": "dificil",
+      "category": "casos-praticos",
+      "front": "Como Lauren reduziu tempo de propostas de 2 dias para 3 horas?",
+      "back": "Implementou PARA com pasta por cliente, usou Progressive Summarization em pesquisas e criou templates reutilizáveis para análises comuns.",
+      "hint": "Organização + destilação + templates",
+      "page_ref": "Casos de Estudo"
+    },
+    {
+      "id": 29,
+      "difficulty": "medio",
+      "category": "filosofia",
+      "front": "Qual a visão final do livro sobre o Segundo Cérebro?",
+      "back": "Não é apenas sobre produtividade, mas sobre realizar seu potencial criativo único, liberando a mente para criar valor que apenas você pode oferecer ao mundo.",
+      "hint": "Potencial criativo liberado",
+      "page_ref": "Capítulo 10"
+    },
+    {
+      "id": 30,
+      "difficulty": "facil",
+      "category": "citacoes",
+      "front": "Complete a citação: 'O conhecimento só tem valor quando...'",
+      "back": "'O conhecimento só tem valor quando é transformado em algo maior que ele mesmo.' - Tiago Forte",
+      "hint": "Transformação é a chave",
+      "page_ref": "Conclusão"
+    }
+  ]
+}
